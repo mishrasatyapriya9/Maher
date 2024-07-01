@@ -19,7 +19,7 @@ const Homecarusel = () => {
     let SliderDom = carouselDom.querySelector(".carousel .list");
     let thumbnailBorderDom = document.querySelector(".carousel .thumbnail");
     let thumbnailItemsDom = thumbnailBorderDom.querySelectorAll(".item");
-    let timeDom = document.querySelector(".carousel .time");
+    // let timeDom = document.querySelector(".carousel .time");
 
     thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
     let timeRunning = 3000;
@@ -93,7 +93,7 @@ const Homecarusel = () => {
           {/* list item */}
           <div className="list">
             <div className="item">
-              <img src={h1} />
+              <img src={h1} alt="content" />
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
@@ -115,7 +115,7 @@ const Homecarusel = () => {
               </div>
             </div>
             <div className="item">
-              <img src={h2} />
+              <img src={h2} alt="content" />
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
@@ -137,7 +137,7 @@ const Homecarusel = () => {
               </div>
             </div>
             <div className="item">
-              <img src={h3} />
+              <img src={h3} alt="content" />
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
@@ -159,7 +159,7 @@ const Homecarusel = () => {
               </div>
             </div>
             <div className="item">
-              <img src={h4} />
+              <img src={h4} alt="content" />
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
@@ -181,7 +181,7 @@ const Homecarusel = () => {
               </div>
             </div>
             <div className="item">
-              <img src={h5} />
+              <img src={h5} alt="content" />
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
@@ -206,35 +206,35 @@ const Homecarusel = () => {
           {/* list thumnail */}
           <div className="thumbnail">
             <div className="item">
-              <img src={h2} />
+              <img src={h2} alt="content" />
               <div className="content">
                 <div className="title">Radisson Blu Plaza</div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
-              <img src={h3} />
+              <img src={h3} alt="ss"/>
               <div className="content">
                 <div className="title">The Oberoi Udaivilas</div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
-              <img src={h4} />
+              <img src={h4} alt="content" />
               <div className="content">
                 <div className="title">Taj Mahal Palace</div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
-              <img src={h5} />
+              <img src={h5} alt="content" />
               <div className="content">
                 <div className="title">JW Marriott Jaipur Resort & Spa</div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
-              <img src={h1} />
+              <img src={h1} alt="content" />
               <div className="content">
                 <div className="title">ITC Grand Chola</div>
                 <div className="description"></div>

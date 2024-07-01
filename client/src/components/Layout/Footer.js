@@ -44,16 +44,16 @@ const Footer = () => {
                   <h3 className="f-title f_600 t_color f_size_18">Contact</h3>
                   <ul className="list-unstyled f_list">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         A -1, 1th Floor, office no. 109, Sector 59, Noida.
                         201301
                       </a>
                     </li>
                     <li>
-                      <a href="#">Company Email</a>
+                      <a href="/">Company Email</a>
                     </li>
                     <li>
-                      <a href="#">Company Ph Number</a>
+                      <a href="/">Company Ph Number</a>
                     </li>
                   </ul>
                 </div>
@@ -74,12 +74,12 @@ const Footer = () => {
                   <ul className="list-unstyled f_list">
                     <li>
                       <Link to="/aboutus">
-                        <a>About</a>
+                        <p>About</p>
                       </Link>
                     </li>
                     <li>
                       <Link>
-                        <a onClick={scrollToContact}>Contact us</a>
+                        <p onClick={scrollToContact}>Contact us</p>
                       </Link>
                     </li>
                   </ul>
@@ -99,10 +99,18 @@ const Footer = () => {
                     Team Solutions
                   </h3>
                   <div className="f_social_icon">
-                    <a href="#" className="fab fa-facebook" />
-                    <a href="#" className="fab fa-twitter" />
-                    <a href="#" className="fab fa-linkedin" />
-                    <a href="#" className="fab fa-pinterest" />
+                    <a href="/" className="fab fa-facebook">
+                      .
+                    </a>
+                    <a href="/" className="fab fa-twitter">
+                      .
+                    </a>
+                    <a href="/" className="fab fa-linkedin">
+                      .
+                    </a>
+                    <a href="/" className="fab fa-pinterest">
+                      .
+                    </a>
                   </div>
                 </div>
               </div>
@@ -126,9 +134,8 @@ const Footer = () => {
                   Any Technical Issue Contact <i className="icon_heart" />{" "}
                   <a
                     href="https://www.linkedin.com/in/satyapriya-mishra-3a95a4223/"
-                    target="_blank"
                   >
-                    <h6 style={{ fontSize: "10px" }}>SATYAPRIYA MISHRA</h6>
+                    <h6 style={{ fontSize: "10px" }}>Puneet Chhabra</h6>
                   </a>
                 </p>
               </div>

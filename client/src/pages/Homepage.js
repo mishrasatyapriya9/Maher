@@ -1,7 +1,5 @@
 import React from "react";
 import { Element, scroller } from "react-scroll";
-import Layout from "../components/Layout/Layout.js";
-import Contact from "./Contact.js";
 import Carusel from "./Carusel/Homecarusel.jsx";
 import Contact2 from "./Contact2/Contactform.jsx";
 import Header from "../components/Layout/Header.js";

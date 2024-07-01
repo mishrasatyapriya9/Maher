@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
-import toast, { Toaster } from "react-hot-toast";
+import  { Toaster } from "react-hot-toast";
 //to use toast notidication just import it and use container in the layout ,then just import the toast in the page code and use toast.success("successfull") like this
 
 //FOR NOTIFICATION MODIFY USED REACT-HOT-TOAST ,USE DOCUMENTATION IN NPMJS/REACT-TOASTIFY

@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { withTheme } from "styled-components";
+import styled from "styled-components";
 import "./About.css"
 import {
   MDBContainer,

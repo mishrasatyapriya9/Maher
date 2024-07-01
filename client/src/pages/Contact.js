@@ -4,7 +4,6 @@
 // we can do by ourself using grid,react icon
 import { useState } from "react";
 import { TextField, Button, Typography, Box } from "@mui/material";
-import {useNavigate} from "react-router-dom";
 import Layout from '../components/Layout/Layout.js'
 
 export default function Contact() {

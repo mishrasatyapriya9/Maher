@@ -30,6 +30,7 @@ export default function App() {
               <img
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
                 className="rounded-circle img-fluid"
+                alt="content"
               />
             </div>
             <MDBCardBody>
@@ -56,6 +57,7 @@ export default function App() {
               <img
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
                 className="rounded-circle img-fluid"
+                alt="content"
               />
             </div>
             <MDBCardBody>
@@ -83,6 +85,7 @@ export default function App() {
               <img
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
                 className="rounded-circle img-fluid"
+                alt="content"
               />
             </div>
             <MDBCardBody>

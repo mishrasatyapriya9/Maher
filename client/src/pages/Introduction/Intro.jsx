@@ -47,7 +47,6 @@ import React from "react";
 import styled from "styled-components";
 import {
   MDBContainer,
-  MDBCardBody,
   MDBCardTitle,
   MDBCardText,
   MDBIcon,

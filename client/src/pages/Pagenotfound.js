@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout.js'
 import { Link } from 'react-router-dom'
 const Pagenotfound = () => {
   return (
@@ -18,7 +17,6 @@ const Pagenotfound = () => {
           Any Technical Issue Contact <i className="icon_heart" />{" "}
           <a
             href="https://www.linkedin.com/in/satyapriya-mishra-3a95a4223/"
-            target="_blank"
           >
             <h6 style={{ fontSize: "15px", color: "red" }}>
               SATYAPRIYA MISHRA
@@ -31,7 +29,6 @@ const Pagenotfound = () => {
           Developed by<i className="icon_heart" />{" "}
           <a
             href="https://www.linkedin.com/in/satyapriya-mishra-3a95a4223/"
-            target="_blank"
           >
             <h6 style={{ fontSize: "15px" }}>SATYAPRIYA MISHRA</h6>
           </a>

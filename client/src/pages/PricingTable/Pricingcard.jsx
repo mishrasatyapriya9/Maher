@@ -58,7 +58,7 @@ const Pricingcard = () => {
                   </ul>
                 </div>
                 <div className="pricing-footer">
-                  <a href="#" className="btn-primary-line silverb">
+                  <a href="/" className="btn-primary-line silverb">
                     Select Plan
                   </a>
                 </div>
@@ -102,7 +102,7 @@ const Pricingcard = () => {
                   </ul>
                 </div>
                 <div className="pricing-footer">
-                  <a href="#" className="btn-primary-line goldb">
+                  <a href="/" className="btn-primary-line goldb">
                     Select Plan
                   </a>
                 </div>
@@ -146,7 +146,7 @@ const Pricingcard = () => {
                   </ul>
                 </div>
                 <div className="pricing-footer">
-                  <a href="#" className="btn-primary-line plantinumb">
+                  <a href="/" className="btn-primary-line plantinumb">
                     Select Plan
                   </a>
                 </div>

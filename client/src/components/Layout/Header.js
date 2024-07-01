@@ -1,9 +1,8 @@
 import React from 'react';
 import "./Footer.css";
 import logo from "../../assets/icon Mehar HSMK (1).svg"
-import { FaShoppingCart } from "react-icons/fa";
 //<FaShoppingCart />
-import { NavLink,Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 ///Navlink is used insted of a tag
 // const Header = () => {
 //   return (
@@ -51,41 +50,18 @@ import { NavLink,Link } from 'react-router-dom'
 // export default Header
 // import logo from "../../assets/bubble-gum-five-star-hotel-and-passport-with-travel-tickets.png"
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import icon from "../../assets/navbaricon/notebook.gif";
+// import NavDropdown from "react-bootstrap/NavDropdown";
+// import icon from "../../assets/navbaricon/notebook.gif";
 import "./Header.css";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { Button } from '@mui/material';
 
 
 function Header({ scrollToComponent }) {
   const [isSticky, setIsSticky] = useState(false);
-  const navigate = useNavigate();
-  const handleContact = () => {
-    // Logic to scroll to ComponentB
-    const element = document.getElementById("contactus");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-  const handleService = () => {
-    // Logic to scroll to ComponentB
-    const element = document.getElementById("services");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-  const handlePrice = () => {
-    // Logic to scroll to ComponentB
-    const element = document.getElementById("priceing");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  
+  
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 5) {
