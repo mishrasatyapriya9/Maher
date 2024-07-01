@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import "./About.css"
+import "./About.css";
 import {
   MDBContainer,
   MDBCard,
@@ -10,13 +10,13 @@ import {
   MDBRow,
   MDBCol,
 } from "mdb-react-ui-kit";
-import Header from "../components/Layout/Header"
-import Footer from "../components/Layout/Footer"
+import Header from "../components/Layout/Header copy";
+import Footer from "../components/Layout/Footer copy";
 import { motion } from "framer-motion";
-import leftphoto from "../assets/aboutusph/5060585_2668382 (1).jpg"
-// Styled Components
+import leftphoto from "../assets/aboutusph/5060585_2668382 (1).jpg";
+
 const AboutSection = styled.section`
-  background-color: #2d2f33;
+  background-color: white;
   color: white;
   padding: 60px 0;
 `;
@@ -52,10 +52,10 @@ const Terms = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
-const About = () => {
+const About = ({ scrollToComponent }) => {
   return (
     <div>
-      <Header />
+      <Header scrollToComponent={scrollToComponent} />
       <AboutSection>
         <MDBContainer>
           <motion.div
@@ -116,7 +116,12 @@ const About = () => {
               </MDBCol>
             </MDBRow>
             <Terms>
-              <p className="termshead" style={{color : "#e76f51",fontSize:"20PX"}}>Terms and Conditions</p>
+              <p
+                className="termshead"
+                style={{ color: "#e76f51", fontSize: "20PX" }}
+              >
+                Terms and Conditions
+              </p>
               <Text>
                 No refund and No Cancellation policy, blackout dates are
                 applicable.

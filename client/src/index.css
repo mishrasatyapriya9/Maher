@@ -9,6 +9,7 @@ font-family: 'Poppins', sans-serif; */
 @tailwind utilities; */
 body {
   /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+  font-family: Inter !important;
 }
 html{
   scroll-behavior: smooth;

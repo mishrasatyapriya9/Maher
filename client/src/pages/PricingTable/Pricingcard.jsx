@@ -1,6 +1,8 @@
 import React from "react";
 import "./Pricing.css";
-const Pricingcard = () => {
+// import { Link } from "react-router-dom";
+
+const Pricingcard = ({ scrollToComponent }) => {
   return (
     <div id="pricing">
       <section className="section pt-5 pb-5" id="pricing-plans">
@@ -49,7 +51,6 @@ const Pricingcard = () => {
                     <li className="active">
                       2 complimentary buffet meal voucher for 2 pax{" "}
                     </li>
-                    <li className="active">5 GB Bandwidth</li>
                     <li className="active">2 complimentary cakes</li>
                     <li></li>
                     <li></li>
@@ -58,9 +59,12 @@ const Pricingcard = () => {
                   </ul>
                 </div>
                 <div className="pricing-footer">
-                  <a href="/" className="btn-primary-line silverb">
+                  <p
+                    className="btn-primary-line silverb"
+                    onClick={() => scrollToComponent("contact")}
+                  >
                     Select Plan
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -79,7 +83,12 @@ const Pricingcard = () => {
                       <br />
                       <p
                         className="price"
-                        style={{ fontSize: "15px", marginTop: "0px",marginBottom:"4px" ,paddingBottom:"4px"}}
+                        style={{
+                          fontSize: "15px",
+                          marginTop: "0px",
+                          marginBottom: "4px",
+                          paddingBottom: "4px",
+                        }}
                       >
                         Inclusive of all taxes
                       </p>
@@ -90,7 +99,6 @@ const Pricingcard = () => {
                     <li className="active">
                       4 complimentary night stay with morning breakfast
                     </li>
-                    <li className="active">Unlimited Users</li>
                     <li className="active">
                       4 complimentary buffet meal vouchers for 2 pax
                     </li>
@@ -102,9 +110,12 @@ const Pricingcard = () => {
                   </ul>
                 </div>
                 <div className="pricing-footer">
-                  <a href="/" className="btn-primary-line goldb">
+                  <p
+                    className="btn-primary-line goldb"
+                    onClick={() => scrollToComponent("contact")}
+                  >
                     Select Plan
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -146,9 +157,12 @@ const Pricingcard = () => {
                   </ul>
                 </div>
                 <div className="pricing-footer">
-                  <a href="/" className="btn-primary-line plantinumb">
+                  <p
+                    className="btn-primary-line plantinumb"
+                    onClick={() => scrollToComponent("contact")}
+                  >
                     Select Plan
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>

@@ -33,7 +33,7 @@ const Homepage = () => {
       <FacilityProvide />
       <LogoScrolling />
       <Element name="pricing">
-        <PricingTable />
+        <PricingTable scrollToComponent={scrollToComponent} />
       </Element>
       <Reviews />
       <Element name="contact">
