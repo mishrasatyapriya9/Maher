@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { scroller } from "react-scroll";
+// import { scroller } from "react-scroll";
 import "./Footer.css";
 
 const Footer = () => {
-  const scrollToContact = () => {
-    scroller.scrollTo("contact", {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart",
-    });
-  };
+  // const scrollToContact = () => {
+  //   scroller.scrollTo("contact", {
+  //     duration: 800,
+  //     delay: 0,
+  //     smooth: "easeInOutQuart",
+  //   });
+  // };
 
   return (
     <div>
@@ -132,9 +132,7 @@ const Footer = () => {
               <div className="col-lg-6 col-sm-5 text-right">
                 <p>
                   Any Technical Issue Contact <i className="icon_heart" />{" "}
-                  <a
-                    href="https://www.linkedin.com/in/satyapriya-mishra-3a95a4223/"
-                  >
+                  <a href="https://www.linkedin.com/in/satyapriya-mishra-3a95a4223/">
                     <h6 style={{ fontSize: "10px" }}>Puneet Chhabra</h6>
                   </a>
                 </p>
