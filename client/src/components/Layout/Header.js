@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../assets/icon Mehar HSMK (1).svg";
 import "./Header.css";
-
+import list from "../../assets/list.jpeg"
 function Header({ scrollToComponent }) {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -42,7 +42,10 @@ function Header({ scrollToComponent }) {
               </h5>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" className="toggle" />
+          <Navbar.Toggle
+            aria-controls="navbarScroll"
+            className="toggle"
+          />
           <Navbar.Collapse id="navbarScroll">
             <div className="d-flex justify-content-between w-100">
               <Nav

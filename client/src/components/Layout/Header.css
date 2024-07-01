@@ -59,7 +59,8 @@
   .toggle {
     z-index: 9999999;
     /* color: black !important; */
-    background-image: url("C:\Users\mishr\Desktop\Hospitality\Maher_Hospitablity\client\src\assets\list.jpeg"); /* Replace with your image path */
+    background-image: url("../../assets/list.jpeg"); 
+    /* Replace with your image path */
     background-size: cover; /* Make sure the image covers the entire button */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     visibility: visible;
