@@ -103,22 +103,20 @@ const Introduction = () => {
         >
           <MDBIcon fas icon="hotel" size="3x" />
         </IconWrapper>
-        <CardTitle>WELCOME TO MEHAR HOSPITALITY SERVICES</CardTitle>
+        <CardTitle>Mehar Hospitality Services</CardTitle>
+        <CardText>Unlock a World of Travel Privileges</CardText>
         <CardText>
-          Empowering Hotels with Consistent, Dependable Revenue Streams
+          Unforgettable stays at premium hotels, exclusive member benefits, and
+          curated travel experience - all at your fingertips.
         </CardText>
         <CardText>
-          B2B-Hospitality is a leading marketing agency boosting hotel revenue across India. We
-          specialize in loyalty programs, FIT’s, group bookings, and corporate
-          reservations. Our expertise enhances F&B, room, and banquet revenue
-          with innovative strategies for profitability. We excel in building
-          brand awareness, customer acquisition, and fostering strong client
-          relationships.
-        </CardText>
-        <CardText>
-          {/* Our latest initiative involves designing, developing, and marketing
-          exclusive Food & Beverage and Room revenue maximization programs for
-          elite hospitality organizations. */}
+          We are a passionate team of travel enthusiasts with a deep love for
+          India's rich tapestry of cultures, landscapes, and experiences. Our
+          mission is to make premium travel in India accessible and rewarding
+          for everyone. We believe that discovering the magic of India shouldn't
+          come at a premium cost. Through our carefully curated exclusive
+          membership programs, we unlock a world of travel privileges that
+          combine exceptional value with unforgettable experiences.
         </CardText>
       </Card>
     </Container>

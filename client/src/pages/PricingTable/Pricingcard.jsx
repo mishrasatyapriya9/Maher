@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import { PlanContext } from "../context/PlanContext.js"
 import "./Pricing.css";
 // import { Link } from "react-router-dom";
 
 const Pricingcard = ({ scrollToComponent }) => {
+  const { setSelectedPlan } = useContext(PlanContext);
+
+  const handleSelectPlan = (plan) => {
+    setSelectedPlan(`I am interested in the ${plan} plan`);
+    scrollToComponent("contactus");
+  };
+
   return (
     <div id="pricing">
       <section className="section pt-5 pb-5" id="pricing-plans">
@@ -61,7 +69,7 @@ const Pricingcard = ({ scrollToComponent }) => {
                 <div className="pricing-footer">
                   <p
                     className="btn-primary-line silverb"
-                    onClick={() => scrollToComponent("contact")}
+                    onClick={() => handleSelectPlan("Silver")}
                   >
                     Select Plan
                   </p>
@@ -112,7 +120,7 @@ const Pricingcard = ({ scrollToComponent }) => {
                 <div className="pricing-footer">
                   <p
                     className="btn-primary-line goldb"
-                    onClick={() => scrollToComponent("contact")}
+                    onClick={() => handleSelectPlan("Gold")}
                   >
                     Select Plan
                   </p>
@@ -124,7 +132,7 @@ const Pricingcard = ({ scrollToComponent }) => {
             <div className="col-lg-4 col-md-6">
               <div className="pricing-item">
                 <div className="pricing-header">
-                  <h3 className="pricing-title pricing-title3">PLANTINUM</h3>
+                  <h3 className="pricing-title pricing-title3">PLATINUM</h3>
                 </div>
                 <div className="pricing-body">
                   <div className="price-wrapper">
@@ -142,9 +150,7 @@ const Pricingcard = ({ scrollToComponent }) => {
                     {/* <span className="period">inclusive of all taxes</span> */}
                   </div>
                   <ul className="list">
-                    <li className="active">
-                      3 night stay complimentary inclusive of all taxes{" "}
-                    </li>
+                    <li className="active">3 night stay complimentary </li>
                     <li className="active">
                       3 complimentary buffet meal vouchers for 2 pax
                     </li>
@@ -159,7 +165,7 @@ const Pricingcard = ({ scrollToComponent }) => {
                 <div className="pricing-footer">
                   <p
                     className="btn-primary-line plantinumb"
-                    onClick={() => scrollToComponent("contact")}
+                    onClick={() => handleSelectPlan("Platinum")}
                   >
                     Select Plan
                   </p>

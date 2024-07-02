@@ -13,6 +13,9 @@ const ServicesComponent = () => {
   return (
     <ServicesContainer id="services">
       <MDBContainer className="py-5">
+        <HeaderContainer>
+          <Header>Our Services</Header>
+        </HeaderContainer>
         <ServiceGrid>
           <ServiceCard>
             <motion.div
@@ -69,8 +72,8 @@ const ServicesComponent = () => {
                   </ServiceIcon>
                   <StyledMDBCardTitle>Memberships</StyledMDBCardTitle>
                   <StyledMDBCardText>
-                    Club Travel benefits are offered at over 100 hotels around
-                    India. Exclusive Discounts available.
+                    Benefits are offered at over 100 hotels in India
+                    and selected destinations in abroad.
                   </StyledMDBCardText>
                 </MDBCardBody>
               </StyledMDBCard>
@@ -114,6 +117,16 @@ const ServicesContainer = styled.div`
     #e0e0e0
   ); /* Gradient background */
   padding: 60px 0;
+`;
+
+const HeaderContainer = styled.div`
+  text-align: center;
+  margin-bottom: 40px;
+`;
+
+const Header = styled.h2`
+  font-size: 2.5rem;
+  color: black;
 `;
 
 const ServiceGrid = styled.div`

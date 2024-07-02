@@ -1,13 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { PlanContext } from "../../pages/context/PlanContext.js";
 
 function Contactform() {
+  const { selectedPlan } = useContext(PlanContext);
   const [formValues, setFormValues] = useState({
     name: "",
     email: "",
     message: "",
   });
+
+  useEffect(() => {
+    if (selectedPlan) {
+      setFormValues((prevValues) => ({
+        ...prevValues,
+        message: selectedPlan,
+      }));
+    }
+  }, [selectedPlan]);
 
   const onChange = (event) => {
     setFormValues({

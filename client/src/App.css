@@ -8,7 +8,13 @@ font-family: 'Poppins', sans-serif; */
   padding: 0;
   box-sizing: border-box;
   background-color: #343A40 !important;
+    font-family: Inter !important;
+
 }
 html{
   scroll-behavior: smooth;
+}
+body {
+  /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+  font-family: Inter !important;
 }

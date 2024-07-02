@@ -32,10 +32,9 @@ const Facility = () => {
       description: "Delicious meals served all day.",
     },
     {
-      icon: "gym",
-      title: "gym Services",
-      description:
-        "Stay fit and energized with our state-of-the-art gym facilities.",
+      icon: "dumbbell",
+      title: "Health Club",
+      description: "Gym and wellness facilities.",
     },
     {
       icon: "parking",

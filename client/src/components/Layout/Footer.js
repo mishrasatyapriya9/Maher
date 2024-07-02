@@ -41,7 +41,9 @@ const Footer = () => {
                     animationName: "fadeInLeft",
                   }}
                 >
-                  <h3 className="f-title f_600 t_color f_size_18">Contact</h3>
+                  <h3 className="f-title f_600 t_color f_size_18 contact">
+                    Contact
+                  </h3>
                   <ul className="list-unstyled f_list">
                     <li>
                       <a href="/">
@@ -60,7 +62,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div
-                  className="f_widget about-widget pl_70 wow fadeInLeft"
+                  className="f_widget about-widget pl_70 wow fadeInLeft quicklinks"
                   data-wow-delay="0.6s"
                   style={{
                     visibility: "visible",
@@ -72,6 +74,11 @@ const Footer = () => {
                     Quicklinks
                   </h3>
                   <ul className="list-unstyled f_list">
+                    <li>
+                      <a href="/">
+                        <p>Home</p>
+                      </a>
+                    </li>
                     <li>
                       <Link to="/aboutus">
                         <p>About</p>
@@ -95,7 +102,7 @@ const Footer = () => {
                     animationName: "fadeInLeft",
                   }}
                 >
-                  <h3 className="f-title f_600 t_color f_size_18">
+                  {/* <h3 className="f-title f_600 t_color f_size_18">
                     Team Solutions
                   </h3>
                   <div className="f_social_icon">
@@ -111,7 +118,7 @@ const Footer = () => {
                     <a href="/" className="fab fa-pinterest">
                       .
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -131,10 +138,8 @@ const Footer = () => {
               </div>
               <div className="col-lg-6 col-sm-5 text-right">
                 <p>
-                  Any Technical Issue Contact <i className="icon_heart" />{" "}
-                  <a
-                    href="https://www.linkedin.com/in/satyapriya-mishra-3a95a4223/"
-                  >
+                  Designed and Developed by - <i className="icon_heart" />{" "}
+                  <a href="https://www.linkedin.com/in/puneet-chhabra">
                     <h6 style={{ fontSize: "10px" }}>Puneet Chhabra</h6>
                   </a>
                 </p>

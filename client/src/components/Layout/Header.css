@@ -39,14 +39,42 @@
   z-index: 1000; /* Adjust as needed */
   /* Additional styles for sticky navbar */
 }
-@media screen and (max-width: 400px) {
-  .icon {
-    /* display: none; */
-    width: 40px;
+@media screen and (max-width: 800px) {
+  .textmehar {
+    font-size: 16px !important;
   }
-  /* .pp{
-    visibility:visible;
-  } */
+  .listitem {
+    width: 30px !important;
+    margin-bottom: 30px;
+  }
+  /* Header.css */
+
+  .toggle {
+    z-index: 9999999;
+    /* color: black !important; */
+    background-image: url("../../assets/list.jpeg"); 
+    /* Replace with your image path */
+    background-size: cover; /* Make sure the image covers the entire button */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    visibility: visible;
+    border: none;
+    margin-right: 18px !important;
+    width: 25px; /* Adjust the size as needed */
+    height: 25px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+
+  /* Make sure the icon is centered inside the button */
+  .toggle .fa-list {
+    font-size: 17px;
+    color: white; /* Adjust the color as needed */
+  }
+}
+
+@media screen and (max-width: 600px) {
   .textmehar {
     font-size: 12px !important;
   }
@@ -57,6 +85,83 @@
   /* Header.css */
 
   .toggle {
+    z-index: 9999999;
+    /* color: black !important; */
+    background-image: url("../../assets/list.jpeg"); 
+    /* Replace with your image path */
+    background-size: cover; /* Make sure the image covers the entire button */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    visibility: visible;
+    border: none;
+    width: 25px; /* Adjust the size as needed */
+    height: 25px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+
+  /* Make sure the icon is centered inside the button */
+  .toggle .fa-list {
+    font-size: 17px;
+    color: white; /* Adjust the color as needed */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .textmehar {
+    font-size: 12px !important;
+  }
+  .listitem {
+    width: 30px !important;
+    margin-bottom: 30px;
+  }
+  /* Header.css */
+
+  .toggle {
+        margin-bottom: 8px !important;
+    z-index: 9999999;
+    /* color: black !important; */
+    background-image: url("../../assets/list.jpeg"); 
+    /* Replace with your image path */
+    background-size: cover; /* Make sure the image covers the entire button */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    visibility: visible;
+    border: none;
+    width: 25px; /* Adjust the size as needed */
+    height: 25px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+
+  /* Make sure the icon is centered inside the button */
+  .toggle .fa-list {
+    font-size: 17px;
+    color: white; /* Adjust the color as needed */
+  }
+}
+@media screen and (max-width: 400px) {
+  .icon {
+    /* display: none; */
+    width: 40px;
+    
+  }
+  /* .pp{
+    visibility:visible;
+  } */
+  .textmehar {
+    font-size: 9px !important;
+  }
+  .listitem {
+    width: 30px !important;
+    margin-bottom: 30px;
+  }
+  /* Header.css */
+
+  .toggle {
+    margin-bottom: 8px !important;
     z-index: 9999999;
     /* color: black !important; */
     background-image: url("../../assets/list.jpeg"); 

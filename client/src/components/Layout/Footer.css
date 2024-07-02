@@ -51,8 +51,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     outline: none;
 }
 
-
-
+.contact{
+    margin-left: 0% !important;
+}
+.quicklinks{
+    margin-left: 60% !important;
+}
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
     color: #5e2ced;
 }
@@ -202,5 +206,48 @@ h1, h2, h3, h4, h5, h6 {
     left: 100%;
   }
 }
+
+
+@media screen and (max-width: 800px) {
+
+    /* .quicklinks{
+    margin-top: 0% !important;
+    padding-top: 0px !important;
+    bottom: 0px !important;
+   } */
+.contact{
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    bottom: 0px !important;
+}
+}
+@media screen and (max-width: 600px) {
+.quicklinks{
+    margin-left: 0% !important;
+    margin-top: 15px;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+.quicklinks{
+    margin-left: 0% !important;
+    margin-top: 15px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    .contact{
+   
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    bottom: 0px !important;
+}
+.quicklinks{
+    margin-left: 0% !important;
+    margin-top: 15px;
+}
+}
+
 
 /*************footer End*****************/

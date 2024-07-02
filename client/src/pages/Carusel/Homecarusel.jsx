@@ -243,8 +243,8 @@ const Homecarusel = () => {
           </div>
           {/* next prev */}
           <div className="arrows">
-            <button id="prev">&lt;</button>
-            <button id="next">&gt;</button>
+            <button id="prev"></button>
+            <button id="next"></button>
           </div>
           {/* time running */}
           <div className="time" />
