@@ -417,28 +417,34 @@ header {
     font-size: 14px !important;
   }
    .thumbnail .item .content .title {
-  font-weight: 500;
-  font-size: 20px !important;
-}
+  font-weight: 200;
+  font-size: 15px !important;
+  }
 
-.navbarin{
+ .navbarin{
   /* display: flex;
   align-items: center;
   flex-wrap: wrap; */
-}
-.book{
+ }
+ .book{
   color:  white !important;
   left: 50%;
   font-size: 8rem !important;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
+ }
   .carousel .content .des {
     font-size: 10px;
   }
 
-  .carousel .thumbnail .item img {
-    width: 90%;
+  .carousel .thumbnail .item .content {
+   margin-top: 200px ;
+    width: 60%;
+    height: 20% !important;
   }
+  .carousel .thumbnail .item  .title{
+   display: none !important;
+  }
+
 
   .carousel .arrows button {
     width: 25px;
@@ -446,7 +452,33 @@ header {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 500px) {
+   .carousel .thumbnail .item{
+    /* top: 20%; */
+  }
+  .carousel .content .title {
+    margin-top: 30px;
+    font-size: 30px !important;
+  }
+  .carousel .content .topic {
+    font-size: 20px;
+    
+  }
+    .carousel .content .des {
+    font-size: 12px;
+    display: none;
+  }
 
+  .carousel .thumbnail .item img {
+   margin-top: 200px ;
+    width: 90%;
+    height: 30%;
+  }
+  .carousel .thumbnail .item  .title{
+   display: none;
+  }
+
+}
 @media screen and (max-width: 400px) {
   .carousel .list .item .content {
     padding: 3px;

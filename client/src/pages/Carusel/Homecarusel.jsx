@@ -9,7 +9,7 @@ import h2 from "../../assets/HotelPics/H2.jpg";
 import h3 from "../../assets/HotelPics/H22.jpeg"; ///
 import h4 from "../../assets/HotelPics/H23.jpeg";
 import h5 from "../../assets/HotelPics/H25.jpeg";
-const Homecarusel = () => {
+const Homecarusel = ({ scrollToComponent }) => {
   useEffect(() => {
     //step 1: get DOM
     let nextDom = document.getElementById("next");
@@ -109,8 +109,12 @@ const Homecarusel = () => {
                   breathtaking views, gourmet dining, and top-notch amenities.
                 </div>
                 <div className="buttons">
-                  <button>SEE MORE</button>
-                  <button>JOIN CLUB FUSION</button>
+                  <button onClick={() => scrollToComponent("cardSliding")}>
+                    SEE MORE
+                  </button>
+                  <button onClick={() => scrollToComponent("pricing")}>
+                    JOIN CLUB FUSION
+                  </button>
                 </div>
               </div>
             </div>
@@ -131,8 +135,12 @@ const Homecarusel = () => {
                   inspired by the royal heritage of Rajasthan.
                 </div>
                 <div className="buttons">
-                  <button>SEE MORE</button>
-                  <button>JOIN CLUB FUSION</button>
+                  <button onClick={() => scrollToComponent("cardSliding")}>
+                    SEE MORE
+                  </button>
+                  <button onClick={() => scrollToComponent("pricing")}>
+                    JOIN CLUB FUSION
+                  </button>
                 </div>
               </div>
             </div>
@@ -153,8 +161,12 @@ const Homecarusel = () => {
                   service, and rich history.
                 </div>
                 <div className="buttons">
-                  <button>SEE MORE</button>
-                  <button>JOIN CLUB FUSION</button>
+                  <button onClick={() => scrollToComponent("cardSliding")}>
+                    SEE MORE
+                  </button>
+                  <button onClick={() => scrollToComponent("pricing")}>
+                    JOIN CLUB FUSION
+                  </button>
                 </div>
               </div>
             </div>
@@ -175,8 +187,12 @@ const Homecarusel = () => {
                   spa services.
                 </div>
                 <div className="buttons">
-                  <button>SEE MORE</button>
-                  <button>JOIN CLUB FUSION</button>
+                  <button onClick={() => scrollToComponent("cardSliding")}>
+                    SEE MORE
+                  </button>
+                  <button onClick={() => scrollToComponent("pricing")}>
+                    JOIN CLUB FUSION
+                  </button>
                 </div>
               </div>
             </div>
@@ -197,8 +213,12 @@ const Homecarusel = () => {
                   exceptional dining and wellness experiences.
                 </div>
                 <div className="buttons">
-                  <button>SEE MORE</button>
-                  <button>JOIN CLUB FUSION</button>
+                  <button onClick={() => scrollToComponent("cardSliding")}>
+                    SEE MORE
+                  </button>
+                  <button onClick={() => scrollToComponent("pricing")}>
+                    JOIN CLUB FUSION
+                  </button>
                 </div>
               </div>
             </div>
@@ -213,7 +233,7 @@ const Homecarusel = () => {
               </div>
             </div>
             <div className="item">
-              <img src={h3} alt="ss"/>
+              <img src={h3} alt="ss" />
               <div className="content">
                 <div className="title">The Oberoi Udaivilas</div>
                 <div className="description"></div>

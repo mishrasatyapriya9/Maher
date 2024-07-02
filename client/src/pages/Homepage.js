@@ -1,3 +1,5 @@
+// Homepage.js
+
 import React from "react";
 import { Element, scroller } from "react-scroll";
 import Carusel from "./Carusel/Homecarusel.jsx";
@@ -24,12 +26,14 @@ const Homepage = () => {
   return (
     <div>
       <Header scrollToComponent={scrollToComponent} />
-      <Carusel />
+      <Carusel scrollToComponent={scrollToComponent} />
       <Intro />
       <Element name="services">
         <Services />
       </Element>
-      <CardSliding />
+      <Element name="cardSliding">
+        <CardSliding />
+      </Element>
       <FacilityProvide />
       <LogoScrolling />
       <Element name="pricing">

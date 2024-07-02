@@ -26,7 +26,7 @@ const JoinSection = styled.section`
   color: white;
   padding: 60px 0;
   text-align: center;
-  border-radius:5%;
+  border-radius: 5%;
 `;
 
 const Title = styled.h2`
@@ -38,7 +38,7 @@ const Title = styled.h2`
 `;
 
 const SubTitle = styled.h3`
-  color: #e76f51;
+  color: #800020;
   font-size: 2rem;
   margin-bottom: 20px;
   font-weight: bold;
@@ -102,18 +102,38 @@ const About = ({ scrollToComponent }) => {
                 />
               </MDBCol>
               <MDBCol md="6">
-                <MDBCard style={{ backgroundColor: "#ffffff", border: "none" ,borderRadius:"5%"}}>
+                <MDBCard
+                  style={{
+                    backgroundColor: "#ffffff",
+                    border: "none",
+                    borderRadius: "5%",
+                  }}
+                >
                   <MDBCardBody>
                     <MDBCardTitle
                       className="text-center"
-                      style={{ color: "#e76f51", fontSize: "2rem" ,paddingLeft:"0%" ,marginLeft:"0%" ,fontWeight:"bold" }}
+                      style={{
+                        color: "#800020",
+                        fontSize: "2rem",
+                        paddingLeft: "0%",
+                        marginLeft: "0%",
+                        fontWeight: "bold",
+                      }}
                     >
                       Mehar Hospitality Services
                     </MDBCardTitle>
-                    <MDBCardText style={{ color: "#264653", fontSize: "16px" }}>
+                    <MDBCardText
+                      style={{
+                        color: "#264653",
+                        fontSize: "16px",
+                        textAlign: "center",
+                      }}
+                    >
                       Where Your Journey to Incredible India Begins.
                       <br />
                       <br />
+                    </MDBCardText>
+                    <MDBCardText style={{ color: "#264653", fontSize: "16px" }}>
                       Mehar Hospitality Services isn't just about finding you a
                       hotel room; it's about crafting unforgettable travel
                       memories. We are a passionate team of travel enthusiasts
