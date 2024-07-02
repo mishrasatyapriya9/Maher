@@ -103,7 +103,7 @@ const Logo = styled.img`
 const MarqueeLogo = () => {
   return (
     <Section>
-      <Heading>Our Partners</Heading>
+      <Heading>Our Happy Clients Stayed At</Heading>
       <MarqueeContainer>
         <LogosWrapper>
           {logos.map((logo, index) => (

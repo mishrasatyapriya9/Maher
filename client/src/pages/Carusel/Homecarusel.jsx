@@ -4,11 +4,11 @@ import "./Carusel.css";
 // import img2 from "../../assets/caruselimages/img2.jpg";
 // import img3 from "../../assets/caruselimages/img3.jpg";
 // import img4 from "../../assets/caruselimages/img4.jpg";
-import h1 from "../../assets/HotelPics/H1.jpg";
-import h2 from "../../assets/HotelPics/H2.jpg";
-import h3 from "../../assets/HotelPics/H22.jpeg"; ///
-import h4 from "../../assets/HotelPics/H23.jpeg";
-import h5 from "../../assets/HotelPics/H25.jpeg";
+import h1 from "../../assets/HotelPics/r4.jpg";
+import h2 from "../../assets/HotelPics/r2.jpg";
+import h3 from "../../assets/HotelPics/taj.jpeg"; ///
+import h4 from "../../assets/HotelPics/pexels-amar-saleem-15661-70441.jpg";
+import h5 from "../../assets/HotelPics/havana-7844664_1920.jpg";
 const Homecarusel = ({ scrollToComponent }) => {
   useEffect(() => {
     //step 1: get DOM
@@ -77,7 +77,7 @@ const Homecarusel = ({ scrollToComponent }) => {
           <p
             className="pp"
             style={{
-              marginLeft: "5%",
+              marginLeft: "2%",
               fontSize: "30px",
               color: "white",
               fontFamily: "cinzel",
@@ -97,16 +97,17 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  Radisson Blu Plaza
+                  The Leela Palaces, Hotels & Resorts
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
                   Spa Treatments, Gourmet Dining
                 </div>
                 <div className="des">
                   {/* lorem 50 */}
-                  Nestled in the heart of the city, Radisson Blu Plaza offers a
-                  blend of modern luxury and traditional charm. Guests can enjoy
-                  breathtaking views, gourmet dining, and top-notch amenities.
+                  Immerse yourself in India's royal heritage. Embrace the
+                  grandeur of The Leela Palaces, where impeccable service and
+                  exquisite surroundings evoke the magic of India's rich
+                  history.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -123,16 +124,16 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  The Oberoi Udaivilas
+                  The Oberoi Group
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
                   Lake Views, Royal Experience
                 </div>
                 <div className="des">
-                  Overlooking the serene Lake Pichola, The Oberoi Udaivilas is a
-                  palatial resort that provides an oasis of tranquility and
-                  opulence. The hotel's architecture and hospitality are
-                  inspired by the royal heritage of Rajasthan.
+                  Unwind in serene sanctuaries. Indulge in unparalleled luxury
+                  and personalized service at Oberoi Hotels & Resorts, where
+                  every detail is designed for your ultimate comfort and
+                  relaxation.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -149,16 +150,16 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  Taj Mahal Palace
+                  Taj Hotels Resorts and Palaces
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
                   Heritage Luxury, Iconic Views
                 </div>
                 <div className="des">
-                  Located in Mumbai, the Taj Mahal Palace is an icon of Indian
-                  hospitality and elegance. This heritage hotel offers a
-                  luxurious stay with its exquisite interiors, exceptional
-                  service, and rich history.
+                  Discover India's vibrant energy. Experience the contemporary
+                  luxury and lively atmosphere of Taj Hotels Resorts and
+                  Palaces, perfectly positioned to explore the heart of India's
+                  most exciting destinations.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -175,16 +176,16 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  JW Marriott Jaipur Resort & Spa
+                  Marriott International
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
-                  Cultural Heritage, Spa Services
+                  Cultural Heritage
                 </div>
                 <div className="des">
-                  Set amidst the lush landscapes of Jaipur, JW Marriott offers a
-                  blend of modern luxury and cultural heritage. The resort
-                  features spacious rooms, world-class dining, and rejuvenating
-                  spa services.
+                  Unwind in modern comfort. Experience the global hospitality
+                  excellence of Marriott International, offering a seamless
+                  blend of contemporary design, exceptional amenities, and
+                  renowned service in India's most exciting locations.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -201,16 +202,16 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  ITC Grand Chola
+                  The Lalit Group
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
                   Wellness Spa, Gourmet Cuisine
                 </div>
                 <div className="des">
-                  Located in Chennai, ITC Grand Chola is a majestic hotel that
-                  offers unparalleled luxury and sophistication. The hotel's
-                  architecture is inspired by the Chola dynasty, and it provides
-                  exceptional dining and wellness experiences.
+                  Experience unparalleled luxury with a view. Immerse yourself
+                  in the grandeur of The Lalit Group, known for its stunning
+                  locations, opulent interiors, and impeccable service, offering
+                  a truly unforgettable stay.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
