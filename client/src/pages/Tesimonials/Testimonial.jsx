@@ -105,14 +105,14 @@ export default function App() {
               <hr />
               <p className="dark-grey-text mt-4">
                 <MDBIcon fas icon="quote-left" className="pe-2" />
-                Luxury and Value in Rajasthan (⭐⭐⭐⭐⭐): "I was initially
+                I was initially
                 skeptical about membership programs, but{" "}
                 <b> Mehar Hospitality Services </b> impressed me. They offered
                 incredible deals on premium hotels across Rajasthan. Thanks to
                 their membership, we stayed in magnificent palaces and charming
                 boutique hotels at a fraction of the usual cost. The best part?
                 The hotels were all outstanding! We'll definitely be using Mehar
-                again for our next Indian getaway." -
+                again for our next Indian getaway.
               </p>
             </MDBCardBody>
           </MDBCard>
