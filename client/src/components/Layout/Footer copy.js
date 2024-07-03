@@ -45,12 +45,11 @@ const Footer = () => {
                   <ul className="list-unstyled f_list">
                     <li>
                       <a href="/">
-                        A -1, 1th Floor, office no. 109, Sector 59, Noida.
-                        201301
+                        Address - office no. 109, 1st floor,Noida,Uttar Pradesh
                       </a>
                     </li>
                     <li>
-                      <a href="/">Company Email</a>
+                      <a href="/">email - info@meharhospitalityservices.com</a>
                     </li>
                     <li>
                       <a href="/">Company Ph Number</a>

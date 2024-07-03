@@ -19,62 +19,62 @@ const hotels = [
   {
     id: 1,
     image: h1,
-    title: "The Leela Palace New Delhi",
-    description: " World-class Dining, Spa",
+    title: "World-class Dining, Spa",
+    description: " ",
   },
   {
     id: 2,
     image: h2,
-    title: "Taj Mahal Hotel",
-    description: "Heritage Charm, Fine Dining",
+    title: "Heritage Charm, Fine Dining",
+    description: "",
   },
   {
     id: 3,
     image: h3,
-    title: "The Oberoi, New Delhi",
-    description: "Golf Views, Wellness",
+    title: "Golf Views, Wellness",
+    description: "",
   },
   {
     id: 4,
     image: h4,
-    title: "ITC Maurya",
-    description: "Culinary Excellence, Luxury Stay",
+    title: "Culinary Excellence, Luxury Stay",
+    description: "",
   },
   {
     id: 5,
     image: h5,
-    title: "Shangri-La's Eros Hotel",
-    description: "City Views, Modern Comfort",
+    title: "City Views, Modern Comfort",
+    description: "",
   },
   {
     id: 6,
     image: h1,
-    title: "The Leela Palace New Delhi",
-    description: " World-class Dining, Spa",
+    title: "World-class Dining, Spa",
+    description: " ",
   },
   {
     id: 7,
     image: h2,
-    title: "Taj Mahal Hotel",
-    description: "Heritage Charm, Fine Dining",
+    title: "Heritage Charm, Fine Dining",
+    description: "",
   },
   {
     id: 8,
     image: h3,
-    title: "The Oberoi, New Delhi",
-    description: "Golf Views, Wellness",
+    title: "Golf Views, Wellness",
+    description: "",
   },
   {
     id: 9,
     image: h4,
-    title: "ITC Maurya",
-    description: "Culinary Excellence, Luxury Stay",
+    title: "Culinary Excellence, Luxury Stay",
+    description: "",
   },
   {
     id: 10,
     image: h5,
-    title: "Shangri-La's Eros Hotel",
-    description: "City Views, Modern Comfort",
+    title: "City Views, Modern Comfort",
+    description: "",
   },
   // Add more hotel objects as needed
 ];
@@ -131,7 +131,7 @@ const HotelCarousel = () => {
                 style={{ width: "100%", height: "200px", objectFit: "cover" }} // Adjust image size here
               />
               <MDBCardBody>
-                <MDBCardTitle>{hotel.title}</MDBCardTitle>
+                <MDBCardTitle className="title" style={{fontSize:"15px"}}>{hotel.title}</MDBCardTitle>
                 <MDBCardText>{hotel.description}</MDBCardText>
               </MDBCardBody>
             </MDBCard>

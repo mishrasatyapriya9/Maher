@@ -74,7 +74,7 @@ const Homecarusel = ({ scrollToComponent }) => {
             <a href>Contacts</a>
             <a href>Info</a>
           </nav> */}
-          <p
+          {/* <p
             className="pp"
             style={{
               marginLeft: "2%",
@@ -86,7 +86,7 @@ const Homecarusel = ({ scrollToComponent }) => {
             }}
           >
             Book Anytime, Anyhwere In India
-          </p>
+          </p> */}
         </header>
         {/* carousel */}
         <div className="carousel">
@@ -97,17 +97,16 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  The Leela Palaces, Hotels & Resorts
+                  Book Anytime, Anywhere
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
-                  Spa Treatments, Gourmet Dining
+                  Exclusive deals at National & International Hotels
                 </div>
                 <div className="des">
                   {/* lorem 50 */}
-                  Immerse yourself in India's royal heritage. Embrace the
-                  grandeur of The Leela Palaces, where impeccable service and
-                  exquisite surroundings evoke the magic of India's rich
-                  history.
+                  Experience World Like Never Before with Mehar Hospitality
+                  Services. Unforgettable stays at hotels, exclusive member
+                  benefits, and curated travel experiences.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -124,16 +123,15 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  The Oberoi Group
+                  Book Anytime, Anywhere
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
-                  Lake Views, Royal Experience
+                  Exclusive deals at National & International Hotels
                 </div>
                 <div className="des">
-                  Unwind in serene sanctuaries. Indulge in unparalleled luxury
-                  and personalized service at Oberoi Hotels & Resorts, where
-                  every detail is designed for your ultimate comfort and
-                  relaxation.
+                  Experience World Like Never Before with Mehar Hospitality
+                  Services. Unforgettable stays at hotels, exclusive member
+                  benefits, and curated travel experiences.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -150,16 +148,15 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  Taj Hotels Resorts and Palaces
+                  Book Anytime, Anywhere
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
-                  Heritage Luxury, Iconic Views
+                  Exclusive deals at National & International Hotels
                 </div>
                 <div className="des">
-                  Discover India's vibrant energy. Experience the contemporary
-                  luxury and lively atmosphere of Taj Hotels Resorts and
-                  Palaces, perfectly positioned to explore the heart of India's
-                  most exciting destinations.
+                  Experience World Like Never Before with Mehar Hospitality
+                  Services. Unforgettable stays at hotels, exclusive member
+                  benefits, and curated travel experiences.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -176,16 +173,15 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  Marriott International
+                  Book Anytime, Anywhere
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
-                  Cultural Heritage
+                  Exclusive deals at National & International Hotels
                 </div>
                 <div className="des">
-                  Unwind in modern comfort. Experience the global hospitality
-                  excellence of Marriott International, offering a seamless
-                  blend of contemporary design, exceptional amenities, and
-                  renowned service in India's most exciting locations.
+                  Experience World Like Never Before with Mehar Hospitality
+                  Services. Unforgettable stays at hotels, exclusive member
+                  benefits, and curated travel experiences.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>
@@ -202,16 +198,15 @@ const Homecarusel = ({ scrollToComponent }) => {
               <div className="content">
                 <div className="author"></div>
                 <div className="title" style={{ fontFamily: "Inter" }}>
-                  The Lalit Group
+                  Book Anytime, Anywhere
                 </div>
                 <div className="topic" style={{ fontFamily: "Inter" }}>
-                  Wellness Spa, Gourmet Cuisine
+                  Exclusive deals at National & International Hotels
                 </div>
                 <div className="des">
-                  Experience unparalleled luxury with a view. Immerse yourself
-                  in the grandeur of The Lalit Group, known for its stunning
-                  locations, opulent interiors, and impeccable service, offering
-                  a truly unforgettable stay.
+                  Experience World Like Never Before with Mehar Hospitality
+                  Services. Unforgettable stays at hotels, exclusive member
+                  benefits, and curated travel experiences.
                 </div>
                 <div className="buttons">
                   <button onClick={() => scrollToComponent("cardSliding")}>

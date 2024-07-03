@@ -7,6 +7,9 @@ import {
   MDBIcon,
   MDBRow,
 } from "mdb-react-ui-kit";
+import rishbh2 from "../../assets/ReviewPhotos/rishbh2.jpeg";
+import amar2 from "../../assets/ReviewPhotos/amar2.jpeg";
+import geetika2 from "../../assets/ReviewPhotos/geetika2.jpeg";
 
 export default function App() {
   return (
@@ -28,21 +31,23 @@ export default function App() {
             ></div>
             <div className="avatar mx-auto bg-white">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                src={rishbh2}
                 className="rounded-circle img-fluid"
+                style={{ width: "80%", marginTop: "50px" }}
                 alt="content"
               />
             </div>
             <MDBCardBody>
-              <h4 className="mb-4">Maria Smantha</h4>
+              <h4 className="mb-4">Rishabh</h4>
               <hr />
               <p className="dark-grey-text mt-4">
-                <MDBIcon fas icon="quote-left" className="pe-2" />I recently
-                stayed at <b>ITC Maurya</b> during my business trip and was
-                thoroughly impressed. The rooms were spotless, the service was
-                impeccable, and the amenities exceeded my expectations. The
-                staff went above and beyond to ensure a comfortable stay. I
-                highly recommend ITC Maurya to anyone visiting the area!
+                <MDBIcon fas icon="quote-left" className="pe-2" />
+                <b>Mehar Hospitality Services</b> helped me discover the magic
+                of Kerala. Their membership offered amazing deals on premium
+                hotels, allowing me to stay in a luxurious and comfortable
+                location. The trip was perfectly planned, and I had the
+                opportunity to explore the stunning backwaters and experience
+                the vibrant local culture.
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -55,22 +60,28 @@ export default function App() {
             ></div>
             <div className="avatar mx-auto bg-white">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                src={amar2}
                 className="rounded-circle img-fluid"
+                style={{ width: "80%", marginTop: "50px" }}
                 alt="content"
               />
             </div>
             <MDBCardBody>
-              <h4 className="mb-4">Lisa Cudrow</h4>
+              <h4 className="mb-4">Amar</h4>
               <hr />
               <p className="dark-grey-text mt-4">
                 <MDBIcon fas icon="quote-left" className="pe-2" />
-                Dining at <b> Red Fox Hotel</b> was an exceptional experience.
-                The ambiance was cozy and inviting, perfect for a romantic
-                evening. The food was simply divine, with each dish bursting
-                with flavor and beautifully presented. The staff were attentive
-                and knowledgeable about the menu. This place is a must-visit for
-                food lovers!
+                Exploring the dazzling metropolis of Dubai was a dream come
+                true, and <b>Mehar Hospitality Services </b> made it even
+                better. Their membership program provided access to a luxurious
+                hotel in the heart of the action. From the breathtaking views
+                from my room to the exceptional service, the hotel stay was
+                outstanding. Mehar's recommendations for local experiences were
+                fantastic! I visited the iconic Burj Khalifa, explored the
+                bustling souks, and even embarked on a thrilling desert safari.
+                My Dubai trip was a perfect blend of luxury, adventure, and
+                cultural immersion. I highly recommend them to anyone planning a
+                trip to this unforgettable city.
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -83,22 +94,25 @@ export default function App() {
             ></div>
             <div className="avatar mx-auto bg-white">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                src={geetika2}
                 className="rounded-circle img-fluid"
+                style={{ width: "80%", marginTop: "50px" }}
                 alt="content"
               />
             </div>
             <MDBCardBody>
-              <h4 className="mb-4">John Smith</h4>
+              <h4 className="mb-4">Geetika</h4>
               <hr />
               <p className="dark-grey-text mt-4">
                 <MDBIcon fas icon="quote-left" className="pe-2" />
-                Our family vacation at <b>The Lalit New Delhi</b> was nothing
-                short of amazing. The kids loved the pool and the variety of
-                activities offered. The family suite was spacious and
-                well-equipped, providing the perfect home-away-from-home
-                experience. The breakfast buffet was a highlight with a wide
-                selection of delicious options. We will definitely be back!"
+                Luxury and Value in Rajasthan (⭐⭐⭐⭐⭐): "I was initially
+                skeptical about membership programs, but{" "}
+                <b> Mehar Hospitality Services </b> impressed me. They offered
+                incredible deals on premium hotels across Rajasthan. Thanks to
+                their membership, we stayed in magnificent palaces and charming
+                boutique hotels at a fraction of the usual cost. The best part?
+                The hotels were all outstanding! We'll definitely be using Mehar
+                again for our next Indian getaway." -
               </p>
             </MDBCardBody>
           </MDBCard>
