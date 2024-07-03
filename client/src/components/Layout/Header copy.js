@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import logo from "../../assets/icon Mehar HSMK (1).svg"
+import logo from "../../assets/Mehar hospitality Logo-01.svg";
 //<FaShoppingCart />
 import { Link } from 'react-router-dom'
 ///Navlink is used insted of a tag

@@ -52,7 +52,7 @@ const Footer = () => {
                       <a href="/">email - info@meharhospitalityservices.com</a>
                     </li>
                     <li>
-                      <a href="/">Company Ph Number</a>
+                      <a href="/">Landline - 0120-4951373</a>
                     </li>
                   </ul>
                 </div>
