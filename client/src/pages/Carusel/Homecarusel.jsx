@@ -224,35 +224,35 @@ const Homecarusel = ({ scrollToComponent }) => {
             <div className="item">
               <img src={h2} alt="content" />
               <div className="content">
-                <div className="title">Radisson Blu Plaza</div>
+                <div className="title"></div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
               <img src={h3} alt="ss" />
               <div className="content">
-                <div className="title">The Oberoi Udaivilas</div>
+                <div className="title"></div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
               <img src={h4} alt="content" />
               <div className="content">
-                <div className="title">Taj Mahal Palace</div>
+                <div className="title"></div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
               <img src={h5} alt="content" />
               <div className="content">
-                <div className="title">JW Marriott Jaipur Resort & Spa</div>
+                <div className="title"></div>
                 <div className="description"></div>
               </div>
             </div>
             <div className="item">
               <img src={h1} alt="content" />
               <div className="content">
-                <div className="title">ITC Grand Chola</div>
+                <div className="title"></div>
                 <div className="description"></div>
               </div>
             </div>

@@ -7,7 +7,7 @@ import l3 from "../../assets/Logos/kisspng-logo-golden-tulip-tjaarda-oranjewoud-
 import l4 from "../../assets/Logos/Le_Meridien_logo.png";
 import l5 from "../../assets/Logos/Novotel_logo.png";
 import l6 from "../../assets/Logos/sheraton.jpeg";
-import l7 from "../../assets/Logos/sunnylogo.jpeg";
+import l7 from "../../assets/Logos/Double_tree_logo.png";
 import l8 from "../../assets/Logos/Taj_Hotel_logo.png";
 import l9 from "../../assets/Logos/The_Lalit_Logo.png";
 
