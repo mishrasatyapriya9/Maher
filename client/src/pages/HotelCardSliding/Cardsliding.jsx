@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import h1 from "../../assets/HotelPics/H1.jpg";
 import h2 from "../../assets/HotelPics/H3.jpeg";
-import h3 from "../../assets/HotelPics/H4.jpeg";
+import h3 from "../../assets/HotelPics/havana-7844664_1920.jpg";
 import h4 from "../../assets/HotelPics/H7.jpeg";
 import h5 from "../../assets/HotelPics/H8.jpeg";
 import {
