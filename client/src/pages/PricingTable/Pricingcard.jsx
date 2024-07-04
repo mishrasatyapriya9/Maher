@@ -54,7 +54,7 @@ const Pricingcard = ({ scrollToComponent }) => {
                   </div>
                   <ul className="list">
                     <li className="active">
-                      2 complementary night stay with morning breakfast
+                      2 complimentary night stay with morning breakfast
                     </li>
                     <li className="active">
                       2 complimentary buffet meal voucher for 2 pax{" "}
