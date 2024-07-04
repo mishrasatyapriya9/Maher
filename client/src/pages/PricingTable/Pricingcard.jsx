@@ -54,12 +54,12 @@ const Pricingcard = ({ scrollToComponent }) => {
                   </div>
                   <ul className="list">
                     <li className="active">
-                      2 complimentary night stay with morning breakfast
+                      2 Complimentary Night Stay With Morning Breakfast
                     </li>
                     <li className="active">
-                      2 complimentary buffet meal voucher for 2 pax{" "}
+                      2 Complimentary Buffet Meal Voucher For 2 Pax{" "}
                     </li>
-                    <li className="active">2 complimentary cakes</li>
+                    <li className="active">2 Complimentary Cakes</li>
                     <li></li>
                     <li></li>
                     <li></li>
@@ -108,12 +108,12 @@ const Pricingcard = ({ scrollToComponent }) => {
                       International Bookings Available.
                     </li>
                     <li className="active">
-                      4 complimentary night stay with morning breakfast
+                      4 Complimentary Night Stay With Morning Breakfast
                     </li>
                     <li className="active">
-                      4 complimentary buffet meal vouchers for 2 pax
+                      4 Complimentary Buffet Meal Vouchers For 2 Pax
                     </li>
-                    <li className="active">4 complimentary cakes. </li>
+                    <li className="active">4 Complimentary Cakes. </li>
                     {/* <li className="active">Data Security and Backups</li>
                     <li className="active">1 GB Storage</li>
                     <li>24x7 Great Support</li>
@@ -153,11 +153,14 @@ const Pricingcard = ({ scrollToComponent }) => {
                     {/* <span className="period">inclusive of all taxes</span> */}
                   </div>
                   <ul className="list">
-                    <li className="active">3 night stay complimentary </li>
                     <li className="active">
-                      3 complimentary buffet meal vouchers for 2 pax
+                      Luxurious Stays Available Pan India
                     </li>
-                    <li className="active">3 complimentary cakes</li>
+                    <li className="active">3 Night Stay Complimentary </li>
+                    <li className="active">
+                      3 Complimentary Buffet Meal Vouchers For 2 Pax
+                    </li>
+                    <li className="active">3 Complimentary Cakes</li>
                     {/* <li className="active">Highest Speed</li>
                     <li className="active">Data Security and Backups</li>
                     <li className="active">1 GB Storage</li>
