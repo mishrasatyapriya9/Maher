@@ -136,12 +136,12 @@ const Footer = () => {
                 </p>
               </div>
               <div className="col-lg-6 col-sm-5 text-right">
-                <p>
+                {/* <p>
                   Designed and Developed by - <i className="icon_heart" />{" "}
                   <a href="https://www.linkedin.com/in/puneet-chhabra">
                     <h6 style={{ fontSize: "10px" }}>Puneet Chhabra</h6>
                   </a>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
